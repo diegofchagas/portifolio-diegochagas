@@ -12,6 +12,12 @@ Projeto desenvolvido para poder divulgar todo meu trabalho que vendo sendo fetio
 # Tecnologias utilizadas
 
 <li>HTML/CSS/JAVASCRIPT</li>
+</br>
+
+<p>link do portifolio</p>
+https://portifolio-diegochagas-web.vercel.app/
+
+</br>
 
 # Desenvolvedor 
 
