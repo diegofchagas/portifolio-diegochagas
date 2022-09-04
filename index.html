@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assests/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Portifolio Website</title>
+  </head>
+  <body>
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a href="#" class="nav_logo"><span class="key">[</span>Diego<span class="key">]</span></a>
+        </div>
+           
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav_item"> <a href="#home" class="nav_link active ">Home</a></li>
+            <li class="nav_item"><a href="#about" class="nav_link ">Sobre</a></li>
+            <li class="nav_item"><a href="#skills" class="nav_link ">Habilidades</a></li>
+            <li class="nav_item"><a href="#work" class="nav_link ">Projetos</a></li>
+            <li class="nav_item"><a href="#contact" class="nav_link ">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="nav_btns">
+          <i class='bx bx-moon' id="theme-button"></i>
+       </div>
+
+        <div class="nav_toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <section class="home bd-grid" id="home">
+        <div class="home_data">
+          <h1 class="home_title ">
+            Olá, <br />
+            Eu, sou <span class="home_title-color">Diego</span><br />
+          </h1>
+          <h3 class="animation">Desenvolvedor Full-Stack </h3>
+          <a href="#contact" class="button">Contato</a>
+        </div>
+
+        <div class="home_social">
+          <a href="https://www.linkedin.com/in/diego-fernandes-chagas/" target="_blank" class="home_social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://www.instagram.com/diegochagas.dev/" target="_blank" class="home_social-icon"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://github.com/diegofchagas" target="_blank" class="home_social-icon"><i class="bx bxl-github"></i></a>
+        </div>
+
+        <div class="home_img">
+          <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <mask id="mask0" mask-type="alpha">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+            </mask>
+            <g mask="url(#mask0)">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+
+                <image class="home_blob-img" x="5" y="-48" href="./assests/IMG_5400-removebg-preview.png"/>
+            </g>
+        </svg>
+         
+        </div> 
+
+      </section>
+
+      <section class="about section" id="about">
+        <h2 class="section-title">Sobre</h2>
+
+        <div class="about_container bd-grid">
+          <div class="about_img">
+            <img
+              src="./assests/IMG_5384.jpg"
+              alt=""
+            />
+          </div>
+
+          <div>
+            <h2 class="about_subtitle">Eu sou Diego Chagas</h2>
+            <p class="about_text">
+              Desenvolvedor Full-Stack, estou graduando em Análise e Desenvolvimento de Sistemas pela Unopar.
+    No momento estou estudando e desenvolvendo projetos web mais precisamente no Front-end, de modo a ampliar meus conhecimentos e assim ter um crescimento contínuo nessa área.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Habilidades</h2>
+
+        <div class="skills_container bd-grid">
+          <div>
+            <h2 class="skills_subtitle">Tecnologias</h2>
+            <p class="skills_text">
+              Estas são as tecnologias que tenho contato no momento.
+              Estou sempre disposto a aprender novas tecnologias.
+            </p>
+
+            <div class="skills_data">
+              <div class="skills_names">
+                <i class="bx bxl-html5 skills_icon"></i>
+                <span class="skills_name">HTML5</span>
+              </div>
+
+              <div class="skills_bar skills_html"></div>
+            </div>
+
+            <div class="skills_data">
+              <div class="skills_names">
+                <i class="bx bxl-css3 skills_icon"></i>
+                <span class="skills_name">CSS3</span>
+              </div>
+
+              <div class="skills_bar skills_css"></div>
+            </div>
+
+            <div class="skills_data">
+              <div class="skills_names">
+                <i class="bx bxl-javascript skills_icon"></i>
+                <span class="skills_name">JAVASCRIPT</span>
+              </div>
+
+              <div class="skills_bar skills_js"></div>
+            </div>
+
+            <div class="skills_data">
+              <div class="skills_names">
+                <i class="bx bxl-nodejs skills_icon"></i>
+                <span class="skills_name">NODEJS</span>
+              </div>
+
+              <div class="skills_bar skills_node"></div>
+            </div>
+
+            <div class="skills_data">
+              <div class="skills_names">
+                <i class="bx bxl-react skills_icon"></i>
+                <span class="skills_name">REACTJS</span>
+              </div>
+
+              <div class="skills_bar skills_react"></div>
+            </div>
+          </div>
+
+          <div>
+            <img src="./assests/work3.jpg" alt="" class="skills_img" />
+          </div>
+        </div>
+      </section>
+
+      <section class="work section" id="work">
+        <h2 class="section-title">Projetos</h2>
+
+        <div class="work_container bd-grid">
+          <div class="work_img">
+            <img src="./assests/bikcraft.jpg" alt="" />
+           <a class="btn" href="https://github.com/diegofchagas/bikcraft" target="_blank"> <i class='bx bxl-github icon'></i>github</a>
+           <a class="btn" href="https://diegofchagas.github.io/bikcraft/" target="_blank">website<i class='bx bx-chevrons-right icon seta'></i></a>
+          </div>
+          
+          <div class="work_img">
+            <img src="./assests/jogo da velha.jpg" alt="" class="ajuste-img-velha" />
+            <a class="btn" href="https://github.com/diegofchagas/jogo-da-velha" target="_blank"> <i class='bx bxl-github icon'></i>github</a>
+            <a class="btn" href="https://diegofchagas.github.io/jogo-da-velha/" target="_blank">website<i class='bx bx-chevrons-right icon seta'></i></a>
+          </div>
+
+          <div class="work_img">
+            <img src="./assests/clone-netflix.jpg" alt=""  class="ajuste-img-velha"/>
+            <a class="btn" href="https://github.com/diegofchagas/netflix-clone" target="_blank"> <i class='bx bxl-github icon'></i>github</a>
+            <a class="btn" href="https://netflix-clone-6e80f.web.app/" target="_blank">website<i class='bx bx-chevrons-right icon seta'></i></a>
+          </div>
+
+          <div class="work_img">
+            <img src="./assests/Home-barber.jpg" alt="" class="ajuste-img-velha"/>
+            <a class="btn" href="https://github.com/diegofchagas/barber-shop-model" target="_blank"> <i class='bx bxl-github icon'></i>github</a>
+            <a class="btn" href="https://diegofchagas.github.io/barber-shop-model/" target="_blank">website<i class='bx bx-chevrons-right icon seta'></i></a>
+          </div>
+
+          <div class="work_img">
+            <img src="./assests/to de list.jpg" alt="" class="ajuste-img-velha" />
+            <a class="btn" href="https://github.com/diegofchagas/lista-de-tarefas" target="_blank"> <i class='bx bxl-github icon'></i>github</a>
+            <a class="btn" href="https://diegofchagas.github.io/lista-de-tarefas/" target="_blank">website<i class='bx bx-chevrons-right icon seta'></i></a>
+          </div>
+
+          <div class="work_img">
+            <img src="./assests/Churrascometro.jpg" alt="" class="ajuste-img-velha"/>
+            <a class="btn" href="https://github.com/diegofchagas/churras_calc" target="_blank"> <i class='bx bxl-github icon'></i>github</a>
+            <a class="btn" href="https://diegofchagas.github.io/churras_calc/" target="_blank">website<i class='bx bx-chevrons-right icon seta'></i></a>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            
+            <div class="contact_container bd-grid">
+                <form action="https://formsubmit.co/diegofchagas@gmail.com"  method ="POST" class="contact_form">
+                    <input type="text" placeholder="Name" class="contact_input" name="name" required>
+                    <input type="email" placeholder="Email" name="email" class="contact_input" required>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden"  name="_next" value="http://www.google.com.br"/>
+                    <textarea name="message" placeholder="Escreva aqui" id="" cols="0" rows="10" class="contact_input"></textarea>
+
+                    <input type="submit" value="enviar" class="contact_button button">
+                </form>
+            </div>
+      </section>
+    </main>
+
+         <footer class="footer">
+             <p class="footer-title">Diego Chagas</p>
+
+             <div class="footer_social">
+                 <a href="https://www.linkedin.com/in/diego-fernandes-chagas/" target="_blank" class="footer_icon"><i class='bx bxl-linkedin'></i></a>
+                 <a href="https://www.instagram.com/diegochagas.dev/" target="_blank" class="footer_icon"><i class='bx bxl-instagram'></i></a>
+                 <a href="https://github.com/diegofchagas" target="_blank" class="footer_icon"><i class='bx bxl-github'></i></a>
+             </div>
+
+             <p>&#169; 2022 copyright all right reserved</p>
+         </footer>
+
+          <a href="#" class="scrollup" id="scroll-up"><i class='bx bx-up-arrow-alt scrollup_icon'></i></a>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
